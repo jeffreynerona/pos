@@ -1,0 +1,270 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans",sans-serif;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*,::after,::before {
+box-sizing:inherit;
+}
+
+body {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, figure, footer, header, main, menu, nav, section, div {
+  display: block;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	background: transparent;
+}
+
+.left {
+	background: #5F5F5F;
+	height: 100%;
+	width: 60%;
+	float: right;
+}
+
+.right {
+	background: #5F5F5F;
+	height: 100%;
+	width: 40%;
+	float: right;
+}
+
+.menu-cat {
+	background: #5F5F5F;
+	height: 100%;
+	width: 15%;
+	float: right;
+}
+
+.menu-cat-right {
+	background: #5F5F5F;
+	height: 100%;
+	display: block;
+	width: 20%;
+	float: right;
+}
+
+.cat-container {
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.cat-container-left {
+	background: #ffffff;
+	height: 100%;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.cat-item {
+	background: #ffffff;
+	width: 7vw;
+	height: 7vw;
+	margin: auto;
+	border-radius: 0px;
+}
+
+.cat-item-left {
+	background: #5F5F5F;
+	width: 7vw;
+	height: 7vw;
+	margin: auto;
+	border-radius: 0px;
+}
+
+.left-container {
+	height: 100%;
+	width: 85%;
+    float: left;
+    overflow:hidden;
+}
+
+.left-container2 {
+	height: 100%;
+	width: 80%;
+    float: left;
+    overflow:hidden;
+}
+
+.menu-container {
+	background: #ffffff;
+	width: 100%;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+
+.bill-container {
+	background: #5F5F5F;
+	width: 100%;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+
+.menu-title {
+	background: transparent;
+	width: 100%;
+	height: 10%;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+.menu-list {
+	background: #5F5F5F;
+	width: 98%;
+	height: 86%;
+	margin: 2%;
+	overflow-y: scroll;
+	border-radius: 0px;
+	::-webkit-scrollbar {display:none;}
+}
+
+.bill-list {
+	background: #ffffff;
+	width: 96%;
+	height: 72%;
+	margin: 2%;
+	overflow-y: scroll;
+	border-radius: 0px;
+	::-webkit-scrollbar {display:none;}
+}
+
+.bill-total {
+	color: #000000;
+	background: #ffffff;
+	width: 96%;
+	height: 22%;
+	margin: 2%;
+	border-radius: 0px;
+}
+
+.menu-item {
+	display: inline-block;
+	background: transparent;
+	width: 48%;
+	height: 100px;
+	margin: 2% 0 0 2%;
+	border-radius: 0px;
+	vertical-align: middle; 
+	text-align: center;
+}
+
+.bill-item {
+	display: inline-block;
+	background: blue;
+	width: 98%;
+	height: 50px;
+	margin: 1% 0 0 1%;
+	border-radius: 0px;
+	vertical-align: middle; 
+	text-align: center;
+}
+
+#bill {
+	color: black;
+}
+
+.no-scroll {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	font-size: 1.5vw;
+} 
+
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+   overflow: hidden;
+}
+
+.add {
+	background: #003366;
+	width: 20%;
+	height: 100%;
+	margin: auto;
+	float: right;
+	border-radius: 0px;
+}
+
+
+.description {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	background: #4285F4;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	float: left;
+	border-radius: 0px;
+	font-size: 1vw;
+	white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+    overflow: hidden;
+}
+
+div.container4 {
+    height: 100%;
+    width: 100%;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+div.container4 h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    color: #000000;
+    font-size: 3vw;
+    transform: translate(-50%, -50%) }
+
+::-webkit-scrollbar {display:none;}
